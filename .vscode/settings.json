@@ -3,8 +3,8 @@
   "python.analysis.extraPaths": ["./emulated_hue"],
   "[python]": {
     "editor.codeActionsOnSave": {
-      "source.organizeImports": true,
-      "source.fixAll": true
+      "source.organizeImports": "explicit",
+      "source.fixAll": "explicit"
     }
   },
   "editor.formatOnPaste": false,
