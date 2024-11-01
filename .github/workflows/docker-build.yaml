@@ -132,7 +132,7 @@ jobs:
         registry:
           - {
               url: ghcr.io/nathan-l,
-              username: GCHR_USERNAME,
+              username: 'nathan-l',
               password: GHCR_PAT,
               repo: ghcr.io/nathan-l/core,
             }
@@ -187,7 +187,7 @@ jobs:
         registry:
           - {
               url: ghcr.io/nathan-l,
-              username: GCHR_USERNAME,
+              username: 'nathan-l',
               password: GHCR_PAT,
               repo: ghcr.io/nathan-l/core,
             }
