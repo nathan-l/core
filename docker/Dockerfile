@@ -139,8 +139,8 @@ ARG BUILD_VERSION
 ARG HASS_ARCH
 LABEL \
     io.hass.version=${BUILD_VERSION} \
-    io.hass.name="Hass Emulated Hue" \
-    io.hass.description="Hue Emulation for Home Assistant" \
+    io.hass.name="Hass Emulated Hue nathan-l fork" \
+    io.hass.description="Hue Emulation for Home Assistant nl fork" \
     io.hass.arch="${HASS_ARCH}" \
     io.hass.type="addon"
 
