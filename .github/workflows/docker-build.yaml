@@ -202,7 +202,7 @@ jobs:
 
       - name: Docker login
         run: |
-          docker login ${{ matrix.registry.url }} -u ${{ secrets[matrix.registry.username] }} -p ${{ secrets[matrix.registry.password] }}
+          docker login ${{ matrix.registry.url }} -u ${{ matrix.registry.username }} -p ${{ secrets[matrix.registry.password] }}
 
       - name: Create Manifest
         # if: ${{ startsWith(github.ref, 'refs/tags/') }}
